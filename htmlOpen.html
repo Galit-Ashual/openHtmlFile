@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Open HTML File</title>
+</head>
+<body>
+  <button id="openHtmlButton">Open HTML File</button>
+
+  <script>
+
+document.getElementById('openHtmlButton').addEventListener('click', openHtmlFile);
+
+function openHtmlFile() {
+  const filePath = '400px_index.html'; // Update with your file name
+  window.open(filePath, '_blank');
+}
+  </script>
+</body>
+</html>
+
